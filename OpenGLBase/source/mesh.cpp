@@ -72,5 +72,6 @@ bool deleteDefaultCube(Mesh* cube) {
 	}
 
 	free(data);
+	memset(data, 0x0, sizeof(unsigned short) + sizeof(Mesh));
 	return true;
 }
