@@ -1,0 +1,16 @@
+[SearchableFiles.include]
+*.h
+*.cpp
+*.hpp
+*.c
+*.glsl
+
+[SearchableFiles.ignore]
+thirdParty/
+Debug/
+Release/
+*.pdb
+*.exe
+*.dll
+glad*
+stb_*
